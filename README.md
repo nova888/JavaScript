@@ -1,1 +1,1 @@
-belajar JavaScript
+belajar JavaScript sederhana
