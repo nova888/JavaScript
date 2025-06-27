@@ -24,6 +24,8 @@ document.title = 'Nova Tampati'
 const btn1 = document.getElementById('btn1')
 const btn2 = document.querySelector('.btn2 ')
 
+const defaultText = 'Klik Saya 1'
+btn1.textContent = defaultText
 
 btn1.style.border = 'none'
 btn1.style.padding = '8px'
@@ -33,4 +35,13 @@ btn1.style.background = 'tomato'
 function gantiWarna() {
 
 btn1.style.background = 'aqua'
+}
+
+
+function ubahText() {
+   btn1.textContent = 'sudah cok'
+}
+
+function oriText() {
+    btn1.textContent = defaultText
 }
