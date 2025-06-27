@@ -32,6 +32,5 @@ btn1.style.background = 'tomato'
 
 function gantiWarna() {
 
-console.log('aman')
-alert('aman')
+btn1.style.background = 'aqua'
 }
