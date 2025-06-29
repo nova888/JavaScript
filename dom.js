@@ -59,21 +59,32 @@ const body = document.body
 
 //  const btn1 = document.querySelector(btn1)
 
-btn1.textContent = "Klik Saya"
-btn1.style.border = 'none'
-btn1.style.padding = '8px'
-btn1.style.fontSize = '24px'
-btn1.style.background = 'tomato'
+// btn1.textContent = "Klik Saya"
+// btn1.style.border = 'none'
+// btn1.style.padding = '8px'
+// btn1.style.fontSize = '24px'
+// btn1.style.background = 'tomato'
 
-function keluarText() {
-    const newText = document.createElement('p')
-    newText.style.color = 'black'
-    newText.textContent = "hallo bung"
-    body.append(newText)
+// function keluarText() {
+//     let newText = document.createElement('p')
+//     newText.style.color = 'black'
+//     newText.textContent = "hallo bung"
+//     body.append(newText)
+// }
+
+// function ubahWarna () {
+//         newText.style.color = 'aqua'
+//     }
+
+const btn2 = document.querySelector('.btn2')
+
+const namaLengkap = document.createElement('p')
+namaLengkap.textContent = 'Nova TAMPATOY'
+
+function namaSaya(){
+    body.append(namaLengkap)
 }
 
-function ubahWarna () {
-    if(newText) {
-    newText.style.color = 'aqua'
-    }
+function ubahWarna(){
+    namaLengkap.style.background = 'tomato'
 }
