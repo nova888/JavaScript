@@ -23,6 +23,11 @@ const posisiSemangka = arraySaya.indexOf('🍉')
 
 if (semangka) {
     const posisiSemangka = arraySaya.indexOf('🍉')
+    const indexBefore = posisiSemangka - 1
+    const indexAfter = posisiSemangka + 1
+    const before = arraySaya[indexBefore]
+    const after = arraySaya[indexAfter]
+
     console.log(
         'buah semangka itu ada dan dia berada di posisi index ke - ${posisiSemangka}',
     )
