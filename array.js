@@ -22,7 +22,10 @@ const semangka = arraySaya.includes ('🍉')
 const posisiSemangka = arraySaya.indexOf('🍉')
 
 if (semangka) {
-    console.log('buah semangka itu ada dan dia berada di posisi index ke - ')(posisiSemangka)
+    const posisiSemangka = arraySaya.indexOf('🍉')
+    console.log(
+        'buah semangka itu ada dan dia berada di posisi index ke - ${posisiSemangka}',
+    )
 } else {
     console.log('saya tidak tahu posisinya dimana')
 }
