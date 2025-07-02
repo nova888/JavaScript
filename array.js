@@ -37,7 +37,7 @@
 //     console.log('saya tidak tahu posisinya dimana')
 // }
 
-const arraySaya = ['🍌',10,{tomato: true},['eat', 'food']]
+// const arraySaya = ['🍌',10,{tomato: true},['eat', 'food']]
 // arraySaya['alpukat'] = '🥑'
 // arraySaya['jeruk'] = '🍊'
 // console.log(arraySaya)
@@ -49,4 +49,13 @@ const arraySaya = ['🍌',10,{tomato: true},['eat', 'food']]
 // console.log(arraySaya)
 // console.log(newArraySaya)
 
-console.log(arraySaya[3][0])
+// console.log(arraySaya[3][0])
+
+
+arraySaya = ['🍇', '🍌', '🥑']
+arrayKamu = ['💋', '👿', '🎉']
+
+const margeArray = arraySaya.concat(arrayKamu)
+
+margeArray.map((value, index) => console.log(value, index))
+
