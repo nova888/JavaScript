@@ -37,7 +37,14 @@
 //     console.log('saya tidak tahu posisinya dimana')
 // }
 
-const arraySaya = []
-arraySaya['alpukat'] = '🥑'
-arraySaya['jeruk'] = '🍊'
+const arraySaya = ['🍋','🍌','🍍','🍓','🍎','🍇']
+// arraySaya['alpukat'] = '🥑'
+// arraySaya['jeruk'] = '🍊'
+// console.log(arraySaya)
+
+const newArraySaya = JSON.parse(JSON.stringify(arraySaya))
+
+newArraySaya [0] = '🥟'
+
 console.log(arraySaya)
+console.log(newArraySaya)
