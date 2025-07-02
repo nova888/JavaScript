@@ -27,10 +27,12 @@ if (semangka) {
     const indexAfter = posisiSemangka + 1
     const before = arraySaya[indexBefore]
     const after = arraySaya[indexAfter]
-
-    console.log(
-        'buah semangka itu ada dan dia berada di posisi index ke - ${posisiSemangka}',
-    )
+    const buahAwal = arraySaya.shift()
+    console.log(`Buah sebelum semangka adalah ${before}`)
+    console.log(`buah sesudah semangka adalah ${after}`)
+    console.log(`Buah Awal adalah ${buahAwal}`)
+    const buahAkhir = arraySaya.pop()
+    console.log(`Buah akhir saya adalah ${buahAkhir}`)
 } else {
     console.log('saya tidak tahu posisinya dimana')
 }
