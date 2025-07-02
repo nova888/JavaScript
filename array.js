@@ -2,7 +2,7 @@
 
 // const varrrrr = ['alalala', function() {return true}, {x: "trueee"}]
 
-const arraySaya = ['🥑', '🍑', '🍐','🍉', '🍊']
+// const arraySaya = ['🥑', '🍑', '🍐','🍉', '🍊']
 // console.log(arraySaya)
 
 // const arrayKamu = []
@@ -18,21 +18,26 @@ const arraySaya = ['🥑', '🍑', '🍐','🍉', '🍊']
 // arrayKita[2] = '🎂'
 // console.log(arrayKita[0])
 
-const semangka = arraySaya.includes ('🍉')
-const posisiSemangka = arraySaya.indexOf('🍉')
+// const semangka = arraySaya.includes ('🍉')
+// const posisiSemangka = arraySaya.indexOf('🍉')
 
-if (semangka) {
-    const posisiSemangka = arraySaya.indexOf('🍉')
-    const indexBefore = posisiSemangka - 1
-    const indexAfter = posisiSemangka + 1
-    const before = arraySaya[indexBefore]
-    const after = arraySaya[indexAfter]
-    const buahAwal = arraySaya.shift()
-    console.log(`Buah sebelum semangka adalah ${before}`)
-    console.log(`buah sesudah semangka adalah ${after}`)
-    console.log(`Buah Awal adalah ${buahAwal}`)
-    const buahAkhir = arraySaya.pop()
-    console.log(`Buah akhir saya adalah ${buahAkhir}`)
-} else {
-    console.log('saya tidak tahu posisinya dimana')
-}
+// if (semangka) {
+//     const posisiSemangka = arraySaya.indexOf('🍉')
+//     const indexBefore = posisiSemangka - 1
+//     const indexAfter = posisiSemangka + 1
+//     const before = arraySaya[indexBefore]
+//     const after = arraySaya[indexAfter]
+//     const buahAwal = arraySaya.shift()
+//     console.log(`Buah sebelum semangka adalah ${before}`)
+//     console.log(`buah sesudah semangka adalah ${after}`)
+//     console.log(`Buah Awal adalah ${buahAwal}`)
+//     const buahAkhir = arraySaya.pop()
+//     console.log(`Buah akhir saya adalah ${buahAkhir}`)
+// } else {
+//     console.log('saya tidak tahu posisinya dimana')
+// }
+
+const arraySaya = []
+arraySaya['alpukat'] = '🥑'
+arraySaya['jeruk'] = '🍊'
+console.log(arraySaya)
