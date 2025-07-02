@@ -37,14 +37,16 @@
 //     console.log('saya tidak tahu posisinya dimana')
 // }
 
-const arraySaya = ['🍋','🍌','🍍','🍓','🍎','🍇']
+const arraySaya = ['🍌',10,{tomato: true},['eat', 'food']]
 // arraySaya['alpukat'] = '🥑'
 // arraySaya['jeruk'] = '🍊'
 // console.log(arraySaya)
 
-const newArraySaya = JSON.parse(JSON.stringify(arraySaya))
+// const newArraySaya = JSON.parse(JSON.stringify(arraySaya))
 
-newArraySaya [0] = '🥟'
+// newArraySaya [0] = '🥟'
 
-console.log(arraySaya)
-console.log(newArraySaya)
+// console.log(arraySaya)
+// console.log(newArraySaya)
+
+console.log(arraySaya[3][0])
