@@ -52,10 +52,36 @@
 // console.log(arraySaya[3][0])
 
 
-arraySaya = ['🍇', '🍌', '🥑']
-arrayKamu = ['💋', '👿', '🎉']
+// arraySaya = ['🍇', '🍌', '🥑']
+// arrayKamu = ['💋', '👿', '🎉']
 
-const margeArray = arraySaya.concat(arrayKamu)
+// const margeArray = arraySaya.concat(arrayKamu)
 
-margeArray.map((value, index) => console.log(value, index))
+// margeArray.map((value, index) => console.log(value, index))
 
+const datas = [
+
+{
+    nama : 'dea afrizal',
+    stack: 'js react dll',
+    age: 30,
+},
+{
+    nama : 'Budi',
+    stack: 'js react dll',
+    age: 30,
+},
+{
+    nama : 'retno',
+    stack: 'js react dll',
+    age: 30,
+},
+{
+    nama : 'satya',
+    stack: 'js react dll',
+    age: 30,
+}]
+
+datas.map((values, index) => {
+    console.log(values.name)
+})
